@@ -1,6 +1,5 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
-// 导航栏组件
 const Navbar: React.FC<{ theme: string; toggleTheme: () => void }> = ({ theme, toggleTheme }) => {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-base-100/80 backdrop-blur-sm border-b border-base-300 z-50">
@@ -8,10 +7,10 @@ const Navbar: React.FC<{ theme: string; toggleTheme: () => void }> = ({ theme, t
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="text-2xl font-bold text-primary">
-              Cursor
+              Cusor
             </Link>
           </div>
-          <div className="flex items-center space-x-8">
+          <div className="flex items-center space-x-3 text-xl sm:space-x-8">
             <Link to={'https://github.com/fromsko'} className="text-base-content hover:text-primary">
               文档
             </Link>

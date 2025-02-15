@@ -9,18 +9,16 @@ const Footer: React.FC<FooterProps> = ({ content }) => {
     <footer className="footer footer-center p-10 bg-base-200 text-base-content">
       <div className="max-w-7xl mx-auto w-full px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* 左侧Logo和描述 */}
           <div className="flex flex-col items-center md:items-start gap-4">
             <div className="flex items-center gap-3">
               <img src="../src/assets/react.svg" width="40" height="40" className="fill-current" />
-              <span className="font-bold text-xl">Cursor AI</span>
+              <span className="font-bold text-xl">Cusor AI</span>
             </div>
             <p className="text-base-content/70 text-sm max-w-xs text-center md:text-left">
               提供可靠的AI服务，让生活更便捷、更智能。
             </p>
           </div>
 
-          {/* 右侧联系方式 */}
           <div className="flex flex-col items-center md:items-end gap-4">
             <div className="flex gap-6">
               <a href="https://github.com/fromsko" className="hover:text-primary transition-colors">
@@ -40,7 +38,7 @@ const Footer: React.FC<FooterProps> = ({ content }) => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-base-300 text-sm text-base-content/70 text-center">
-          © 2025 Cursor AI Ltd. All rights reserved.
+          © 2025 Cusor AI Ltd. All rights reserved.
         </div>
       </div>
     </footer>

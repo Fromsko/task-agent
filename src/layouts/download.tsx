@@ -4,10 +4,9 @@ const Download: React.FC = () => {
   return (
     <div className="min-h-screen pt-20 pb-10 bg-base-100">
       <div className="max-w-7xl mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center mb-12 text-base-content">下载 Cursor</h1>
+        <h1 className="text-4xl font-bold text-center mb-12 text-base-content mt-10">下载 Cusor</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Windows 下载卡片 */}
           <div className="card bg-base-200 shadow-xl hover:shadow-2xl transition-all duration-300">
             <div className="card-body items-center text-center">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 text-primary" viewBox="0 0 24 24">
@@ -27,7 +26,6 @@ const Download: React.FC = () => {
             </div>
           </div>
 
-          {/* macOS 下载卡片 */}
           <div className="card bg-base-200 shadow-xl hover:shadow-2xl transition-all duration-300">
             <div className="card-body items-center text-center">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 text-primary" viewBox="0 0 24 24">
@@ -47,7 +45,6 @@ const Download: React.FC = () => {
             </div>
           </div>
 
-          {/* Linux 下载卡片 */}
           <div className="card bg-base-200 shadow-xl hover:shadow-2xl transition-all duration-300">
             <div className="card-body items-center text-center">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 text-primary" viewBox="0 0 24 24">
@@ -68,7 +65,6 @@ const Download: React.FC = () => {
           </div>
         </div>
 
-        {/* 系统要求说明 */}
         <div className="mt-16">
           <h2 className="text-2xl font-bold mb-6 text-center text-base-content">系统要求</h2>
           <div className="card bg-base-200 shadow-xl">

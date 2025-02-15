@@ -1,9 +1,10 @@
 // routes.ts
 import React from 'react'
 
-const MainContent = React.lazy(() => import('../components/ui/MainContent'))
-const Demo = React.lazy(() => import('../layouts/demo'))
+// components
+const MainContent = React.lazy(() => import('../components/MainContent'))
 
+// layouts
 const Default = React.lazy(() => import('../layouts/default'))
 const Pricing = React.lazy(() => import('../layouts/pricing'))
 const Download = React.lazy(() => import('../layouts/download'))
@@ -33,10 +34,6 @@ const routes: RouteType[] = [
         element: <Pricing />
       }
     ]
-  },
-  {
-    path:'/demo',
-    element: <Demo />
   },
   {
     path: '/admin/dashboard',

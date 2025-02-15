@@ -2,10 +2,9 @@ import React, { Suspense } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import routes from './router/routes'
 
-// 路由容器组件
 const RouteContainer: React.FC = () => {
   return (
-    <Suspense fallback={<div>加载中...</div>}>
+    <Suspense fallback={<div>Loading...</div>}>
       <Routes>
         {routes.map((route, index) =>
           route.children ? (

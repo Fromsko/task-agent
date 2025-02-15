@@ -5,7 +5,7 @@ const Pricing: React.FC = () => {
     <div className="min-h-screen bg-base-100">
       <div className="container mx-auto px-4 py-16">
         {/* 标题部分 */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 mt-14">
           <h1 className="text-4xl font-bold mb-4">简单透明的定价方案</h1>
           <p className="text-xl text-base-content/70">为不同规模的团队和个人提供灵活的订阅选择</p>
         </div>
