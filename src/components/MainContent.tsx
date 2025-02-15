@@ -1,5 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import ReactLogo from '@assets/react.svg';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const MainContent: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ const MainContent: React.FC = () => {
               className="mb-8 h-24 w-24 rounded-lg border border-gray-200/20 p-2 shadow-lg backdrop-blur-sm dark:border-gray-600/50"
               style={{ opacity: 1, transform: 'none' }}
             >
-              <img src="/assets/react.svg" alt="Chat Nio Logo" className="h-full w-full object-contain" />
+              <img src={ReactLogo} alt="Chat Nio Logo" className="h-full w-full object-contain" />
             </div>
             <h1
               className="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text text-center text-4xl font-bold tracking-tight text-transparent dark:from-white dark:via-gray-300 dark:to-white sm:text-6xl dark:text-base-content"
