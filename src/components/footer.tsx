@@ -11,7 +11,7 @@ const Footer: React.FC<FooterProps> = ({ content }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex flex-col items-center md:items-start gap-4">
             <div className="flex items-center gap-3">
-              <img src="../src/assets/react.svg" width="40" height="40" className="fill-current" />
+              <img src="/assets/react.svg" width="40" height="40" className="fill-current" />
               <span className="font-bold text-xl">Cusor AI</span>
             </div>
             <p className="text-base-content/70 text-sm max-w-xs text-center md:text-left">
