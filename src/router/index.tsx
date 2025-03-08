@@ -2,13 +2,13 @@
 import React from 'react'
 
 // components
-const MainContent = React.lazy(() => import('../components/MainContent'))
+const MainContent = React.lazy(() => import('@components/MainContent'))
 
 // layouts
-const Default = React.lazy(() => import('../layouts/default'))
-const Pricing = React.lazy(() => import('../layouts/pricing'))
-const Download = React.lazy(() => import('../layouts/download'))
-const Dashboard = React.lazy(() => import('../layouts/dashboard'))
+const Default = React.lazy(() => import('@layouts/default'))
+const Pricing = React.lazy(() => import('@layouts/pricing'))
+const Download = React.lazy(() => import('@layouts/download'))
+const Dashboard = React.lazy(() => import('@layouts/dashboard'))
 
 interface RouteType {
   path: string

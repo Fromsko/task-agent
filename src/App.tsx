@@ -1,10 +1,12 @@
+import Loading from '@components/loading'
+import routes from '@router/index'
+
 import React, { Suspense } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import routes from './router/routes'
 
 const RouteContainer: React.FC = () => {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<Loading />}>
       <Routes>
         {routes.map((route, index) =>
           route.children ? (

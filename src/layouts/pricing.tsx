@@ -4,15 +4,12 @@ const Pricing: React.FC = () => {
   return (
     <div className="min-h-screen bg-base-100">
       <div className="container mx-auto px-4 py-16">
-        {/* 标题部分 */}
         <div className="text-center mb-16 mt-14">
           <h1 className="text-4xl font-bold mb-4">简单透明的定价方案</h1>
           <p className="text-xl text-base-content/70">为不同规模的团队和个人提供灵活的订阅选择</p>
         </div>
 
-        {/* 定价卡片 */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* 基础版 */}
           <div className="card bg-base-200 shadow-xl hover:shadow-2xl transition-shadow">
             <div className="card-body">
               <h2 className="card-title text-2xl mb-2">基础版</h2>
@@ -44,7 +41,6 @@ const Pricing: React.FC = () => {
             </div>
           </div>
 
-          {/* 专业版 */}
           <div className="card bg-primary text-primary-content shadow-xl hover:shadow-2xl transition-shadow">
             <div className="card-body">
               <div className="absolute -top-4 right-4">
@@ -85,7 +81,6 @@ const Pricing: React.FC = () => {
             </div>
           </div>
 
-          {/* 企业版 */}
           <div className="card bg-base-200 shadow-xl hover:shadow-2xl transition-shadow">
             <div className="card-body">
               <h2 className="card-title text-2xl mb-2">企业版</h2>
@@ -124,7 +119,6 @@ const Pricing: React.FC = () => {
           </div>
         </div>
 
-        {/* FAQ部分 */}
         <div className="mt-24">
           <h2 className="text-3xl font-bold text-center mb-12">常见问题</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

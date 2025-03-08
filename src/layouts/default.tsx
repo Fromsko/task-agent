@@ -1,7 +1,8 @@
+import Navbar from '@components/Header'
+import Footer from '@components/footer'
+
 import { useEffect, useState } from 'react'
 import { Outlet } from 'react-router-dom'
-import Navbar from '../components/Header'
-import Footer from '../components/footer'
 const DefaultLayout: React.FC = () => {
   const [theme, setTheme] = useState('light')
 

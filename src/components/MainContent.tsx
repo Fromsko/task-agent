@@ -1,6 +1,6 @@
-import ReactLogo from '@assets/react.svg';
-import React from 'react';
-import { Link } from 'react-router-dom';
+import ReactLogo from '@assets/react.svg'
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 const MainContent: React.FC = () => {
   return (
